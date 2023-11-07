@@ -1,0 +1,169 @@
+/*estilo tituto de la web*/
+.titulo-de-la-web {
+    font-size: 25px;
+   text-align: center;
+   color: rgb(241, 159, 77);
+   padding-top: 20px;
+}
+
+/*estilo header*/
+.header {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+   
+}
+.header a {
+    margin-right: 30px; /* Agrega un margen de 20px a la derecha de cada enlace */
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+/*estilo al primer bloque de codigo sobre clases*/
+.bloque-clases {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+    padding: 10px;
+
+}
+
+.right {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*estilo al primer bloque de codigo sobre traducciones*/
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.fotosbloques{
+    order: 2; /* Cambio de orden */
+    flex: 1;
+    padding: 10px;
+}
+.right {
+    order: 1; /* Cambio de orden */
+    flex: 1;
+    padding: 10px;
+}
+/* estilo imagenes que estan en los bloques de codigos del index*/
+img {
+    max-width: 100%;
+    height: auto;
+    }
+ /*titulos f3 dentro los bloques*/
+ .titulos-inside-bloques{
+    text-align: center;
+    font-size: 100px;
+ }   
+/*estilo al primer bloque de codigo sobre interpretacion*/
+.bloque-interprete {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    padding: 10px;
+   
+}
+
+.right {
+    flex: 1;
+    padding: 10px;
+ 
+}
+
+/*estilo imagen principal del index*/
+/* Estilo para el contenedor de la imagen */
+.imagenportada {
+    position: relative;
+}
+
+.imagenportada img {
+    width: 100%; /* La imagen ocupa todo el espacio de su contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    display: block; /* Elimina el espacio en blanco debajo de la imagen */
+}
+
+/* Estilo para el rectángulo blanco y el texto */
+.rectangulo-blanco {
+    background-color: rgb(217, 217, 217); /* Fondo blanco */
+    padding: 20px; /* Relleno interior de 20px */
+    position: absolute; /* Posición absoluta en relación con el contenedor padre (.imagenportada) */
+    top: 50%; /* En el centro vertical */
+    left: 50%; /* En el centro horizontal */
+    transform: translate(-50%, -50%); /* Ajusta el centro del rectángulo al centro del contenedor */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+.texto-rectangulo {
+    color: rgb(241, 159, 77);
+font-size: 30px;
+
+}
+ 
+/*imagen gracias, donde van a estar las recomendaciones de los clientes*/
+
+.imagengracias img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 450px;
+    padding-bottom: 45px;
+    
+}
+
+/* Estilo para el contenedor de la imagen y los comentarios */
+.imagengracias {
+    position: relative;
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 450px;
+}
+
+
+/* Estilo para la palabra "Comentarios" */
+.comentarios {
+    font-size: 25px;
+    color: rgb(241, 159, 77);
+    position: absolute;
+    top: 10px; /* Ajusta la distancia superior según tus preferencias */
+    left: 50%; /* Centra horizontalmente dentro del contenedor */
+    transform: translateX(-50%); /* Ajusta el centro de la palabra */
+    background: rgba(217, 217, 217); /* Fondo blanco semi-transparente */
+    padding: 5px;
+
+}
+
+/*subtitulos*/
+.subtitulos {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(241, 159, 77);
+    line-height: 100px; /* Ajusta el valor según tu preferencia para centrar verticalmente */
+}
+.linea {
+   border-width: 10px;
+   margin: 0 10px; /* Márgenes izquierdo y derecho */
+  }
+
+.titulos-inside-bloques {
+color: rgb(241, 159, 77);
+} 
+
+.items-inside-bloques{
+    font-size: 13px;
+}
+
+h2 { font-size: 25px;}
+h3 { font-size: 20px;}
