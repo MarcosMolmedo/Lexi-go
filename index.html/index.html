@@ -8,24 +8,43 @@
     <title>Lexi-go</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-  
+    <link rel="shortcut icon" href="imagenes/icon lexi-go.jpeg">
+    <script src="main.js"></script>
 </head>
 <body>
-<div class="titulo-de-la-web"><h1>Lexi-go</h1></div>   
-<div class="header">
-    <a class="..." href="#home">INICIO</a>
-    <a href="...">SOBRE NOSOTROS</a>
-    <a href="...">CONTACTANOS</a>
-  </div>
-  <div class="imagenportada">
-    <img src="imagenes/portada Lexi-go.png" alt="foto de portada" style="height: auto; max-height: 450px;">
+<div class="titulo-de-la-web">
+    <img src="imagenes/logo lexi-go recortado.jpeg" alt="foto de logo" style="height: auto;">
+</div>   
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">INICIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+           
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">SOBRE NOSOTROS</a></li>
+              <li><a class="dropdown-item" href="#">CONTACTO</a></li>
+              <li><a class="dropdown-item" href="#">COTIZACIONES</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="imagenportada text-center position-relative">
+    <img src="imagenes/portada Lexi-go.png" alt="foto de portada" class="img-fluid" style="max-height: 450px;">
     <div class="rectangulo-blanco">
-        <div class="texto-rectangulo">
-            <p>Bienvenido a Lexi-go</p>
+        <div class="imagen-rectangulo">
+         <img src="imagenes/logo lexi-go recortado.jpeg" alt="Lexi-go logo" class="img-fluid imagendetrodelrectangulo">
         </div>
     </div>
 </div>
-
 <div class="subtitulos"><h2>¿Porque elegir Lexi-go?</h2></div>
 
 <div class="bloque-clases">
@@ -80,10 +99,17 @@
        </div>
     </div>
 </div>    
+  
 <div class="imagengracias">
     <div class="comentarios">COMENTARIOS</div>
     <img src="imagenes/index lexi-go gracias.png" alt="foto de portada">
+    <div class="rectangulo-texto-gracias">
+        <p id="texto-cambiante-gracias"></p>
+    </div>
 </div>
+
+
+<script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,24 +1,18 @@
 /*estilo tituto de la web*/
 .titulo-de-la-web {
-    font-size: 25px;
-   text-align: center;
-   color: rgb(241, 159, 77);
-   padding-top: 20px;
+max-width: 170px;
+display: block;
+margin: auto;
 }
+/* Estilos adicionales para el fondo del header y colores */
 
-/*estilo header*/
-.header {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-   
-}
-.header a {
-    margin-right: 30px; /* Agrega un margen de 20px a la derecha de cada enlace */
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-  }
+
+.navbar {
+    /* Añade estilos personalizados a tu barra de navegación */
+    margin-bottom: 10px;
+    margin-top: 10px;
+        }
+
 /*estilo al primer bloque de codigo sobre clases*/
 .bloque-clases {
     display: flex;
@@ -88,7 +82,6 @@ img {
 }
 
 /*estilo imagen principal del index*/
-/* Estilo para el contenedor de la imagen */
 .imagenportada {
     position: relative;
 }
@@ -101,50 +94,29 @@ img {
 
 /* Estilo para el rectángulo blanco y el texto */
 .rectangulo-blanco {
-    background-color: rgb(217, 217, 217); /* Fondo blanco */
-    padding: 20px; /* Relleno interior de 20px */
-    position: absolute; /* Posición absoluta en relación con el contenedor padre (.imagenportada) */
-    top: 50%; /* En el centro vertical */
-    left: 50%; /* En el centro horizontal */
-    transform: translate(-50%, -50%); /* Ajusta el centro del rectángulo al centro del contenedor */
-    text-align: center; /* Centra el texto horizontalmente */
-}
-.texto-rectangulo {
-    color: rgb(241, 159, 77);
-font-size: 30px;
-
-}
- 
-/*imagen gracias, donde van a estar las recomendaciones de los clientes*/
-
-.imagengracias img {
-    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
-    height: 450px;
-    padding-bottom: 45px;
-    
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-/* Estilo para el contenedor de la imagen y los comentarios */
+/* Estilo para la imagen dentro del rectángulo */
+.imagen-rectangulo img {
+    width: 300px; 
+    height: auto; 
+    margin-left: 10px;
+   
+}
+
+/* Estilo para el contenedor de la imagen gracias y los comentarios */
 .imagengracias {
     position: relative;
     width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
     height: 450px;
 }
-
-
-/* Estilo para la palabra "Comentarios" */
-.comentarios {
-    font-size: 25px;
-    color: rgb(241, 159, 77);
-    position: absolute;
-    top: 10px; /* Ajusta la distancia superior según tus preferencias */
-    left: 50%; /* Centra horizontalmente dentro del contenedor */
-    transform: translateX(-50%); /* Ajusta el centro de la palabra */
-    background: rgba(217, 217, 217); /* Fondo blanco semi-transparente */
-    padding: 5px;
-
-}
-
 /*subtitulos*/
 .subtitulos {
     padding-top: 20px;
@@ -165,5 +137,37 @@ color: rgb(241, 159, 77);
     font-size: 13px;
 }
 
-h2 { font-size: 25px;}
-h3 { font-size: 20px;}
+h2 { font-size: 20px;}
+h3 { font-size: 15px;}
+
+/*estilo imagen y rectangulo de imagen gracias */
+.imagengracias img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 450px;
+    padding-bottom: 45px;
+    
+}
+
+.rectangulo-texto-gracias {
+    position: absolute;
+    background-color: rgb(217, 217, 217);
+    width: 60%; /* El ancho del rectángulo */
+    height: 100px; /* Altura del rectángulo */
+    text-align: center; /* Centrar el texto horizontalmente */
+    color: rgb(68, 132, 206); /* Color del texto */
+    top: 50%; /* Centrar verticalmente */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Alinear al centro */
+}
+/* Estilo para la palabra "Comentarios" */
+.comentarios {
+    font-size: 25px;
+    color: rgb(68, 132, 206);
+    position: absolute;
+    top: 10px; /* Ajusta la distancia superior según tus preferencias */
+    left: 50%; /* Centra horizontalmente dentro del contenedor */
+    transform: translateX(-50%); /* Ajusta el centro de la palabra */
+    background: rgba(217, 217, 217); /* Fondo blanco semi-transparente */
+    padding: 5px;
+
+}
